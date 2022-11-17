@@ -1,0 +1,159 @@
+.firstPage {
+    background-image: url('../img/FACCIA_HOMEPAGE_MOBILE.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.titlesProjects {
+    display: none;
+}
+
+.imgProjects {
+    display: block;
+}
+
+.navImage {
+    width: 5%;
+    cursor: pointer
+}
+
+.titleImage {
+    display: block;
+    width: 50%;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productImage {
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+.esplosoImage {
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+}
+
+.liststyle {
+    text-align: start;
+    padding: 3rem;
+}
+
+.esplosobox {
+    display: flex;
+}
+
+.titleImageAna {
+    display: block;
+    width: 50%;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titleImageMask {
+    display: block;
+    width: 30%;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titleImageBIG {
+    display: block;
+    width: 15%;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.videoBox {
+    display: flex;
+    background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+
+    .firstPage {
+        background-image: url('../img/FACCIA_HOMEPAGE_MOBILE.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: #FFFFFF;
+    }
+
+    .ashlogo {
+        width: 50% !important;
+        margin-top: 15rem;
+    }
+
+    .titlesProjects {
+        display: none;
+    }
+
+    .imgProjects {
+        display: block;
+    }
+
+    .navImage {
+        width: 15%;
+        cursor: pointer
+    }
+
+    .titleImage {
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    .titleImageMask {
+        width: 65%;
+        margin: 5rem;
+        margin-bottom: 4rem;
+    }
+
+    .titleImageAna {
+        width: 70%;
+        margin-top: 5rem;
+    }
+
+    .productImage {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .esplosoImage {
+        display: block;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .liststyle {
+        text-align: end;
+    }
+
+    .esplosobox {
+        display: block;
+    }
+
+    .titleImageBIG {
+        width: 65%;
+        margin: 5rem;
+        margin-bottom: 4rem;
+    }
+
+    .videoBox {
+        display: block
+    }
+}

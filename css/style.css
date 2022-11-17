@@ -1,0 +1,186 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin: 0;
+}
+
+a {
+  color: rgb(140, 140, 140);
+  text-decoration: none;
+}
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+navbar {
+  z-index: 100;
+  font-size: 2rem;
+  color: rgb(140, 140, 140);
+  font-weight: bold;
+  width: 100%;
+  text-align: end;
+  justify-content: end;
+  float: right;
+  margin-top: 2.5rem;
+  position: fixed;
+  right: 2.5rem;
+}
+
+.firstPage {
+  background-image: url('../img/nethbadge.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+.centering {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+li {
+  padding: 20px;
+}
+
+.ashlogo {
+  width: 25%;
+  margin-top: 15rem;
+}
+
+/*--------------css per carosello------------------*/
+
+.pic-ctn {
+  width: 100vw;
+  height: 200px;
+}
+
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+.pic-ctn {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 15vh;
+}
+
+.pic-ctn>img {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+  opacity: 0;
+  animation: display 10s infinite;
+}
+
+img:nth-child(2) {
+  animation-delay: 2s;
+}
+
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+
+img:nth-child(4) {
+  animation-delay: 6s;
+}
+
+img:nth-child(5) {
+  animation-delay: 8s;
+}
+
+.titlesProjects {
+  display: flex;
+}
+
+.imgProjects {
+  display: flex;
+}
+
+.navImage {
+  width: 5%;
+  cursor: pointer
+}
+
+@media screen and (max-width: 600px) {
+
+  .firstPage {
+    background-image: url('../img/FACCIA_HOMEPAGE_MOBILE.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+  }
+
+  .ashlogo {
+    width: 50% !important;
+    margin-top: 15rem;
+  }
+
+  .titlesProjects {
+    display: none;
+  }
+
+  .imgProjects {
+    display: block;
+  }
+
+  .navImage {
+    width: 15%;
+    cursor: pointer
+  }
+
+  .titleImage {
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  .productImage {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .esplosoImage {
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .liststyle {
+    text-align: end;
+  }
+
+  .esplosobox {
+    display: block;
+  }
+}

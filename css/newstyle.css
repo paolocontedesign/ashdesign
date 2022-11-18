@@ -35,6 +35,21 @@
     margin-bottom: 5rem;
 }
 
+.productImageBIG {
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+.productImageMask {
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .esplosoImage {
     display: block;
     width: 35%;
@@ -70,7 +85,7 @@
 
 .titleImageBIG {
     display: block;
-    width: 15%;
+    width: 25%;
     margin-top: 5rem;
     margin-left: auto;
     margin-right: auto;
@@ -110,7 +125,7 @@
     }
 
     .titleImage {
-        width: 100%;
+        width: 75%;
         margin-top: 5rem;
     }
 
@@ -132,6 +147,16 @@
         margin-right: auto;
     }
 
+    .productImageBIG {
+        width: 70%;
+    }
+
+    .productImageMask {
+        width: 50%;
+        margin-top: 0;
+        margin-bottom: 3rem;
+    }
+
     .esplosoImage {
         display: block;
         width: 85%;
@@ -141,6 +166,7 @@
 
     .liststyle {
         text-align: end;
+        padding-top: 0;
     }
 
     .esplosobox {
@@ -150,7 +176,7 @@
     .titleImageBIG {
         width: 65%;
         margin: 5rem;
-        margin-bottom: 4rem;
+        margin-bottom: 1rem;
     }
 
     .videoBox {
